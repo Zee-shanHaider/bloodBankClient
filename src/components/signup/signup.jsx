@@ -77,7 +77,7 @@ const Signup = () => {
       >
       
         <>
-      <p className='txt-left'>
+      <p className='txt-left'> 
           AiOutlineArrowLeft
           </p>
         <div className='form'>

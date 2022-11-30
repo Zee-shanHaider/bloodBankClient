@@ -4,4 +4,4 @@ import { donorReducer } from "./donor/donorReducer"
 export const rootReducer = combineReducers({
     user: userReducer,
     donor: donorReducer,
-})
+}) 

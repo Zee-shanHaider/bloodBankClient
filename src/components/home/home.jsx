@@ -15,7 +15,7 @@ const Home = () => {
      <SideBar/>
       <div className="container">
         <div className="dataContainer">
-            <p className='txt-left border-btm h'>
+            <p className='txt-left border-btm h'> 
               Administrator part
             </p>
             <h6 className='txt-left h6'>
