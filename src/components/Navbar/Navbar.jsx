@@ -18,11 +18,11 @@ const Navbar = () => {
                   <li className='border-btm'><a className="dropdown-item" href="#">Something else here</a></li>
                 </ul>
             </div>
-        </div>
+        </div> 
 
        
     </div>
-  )
+  ) 
 }
 
 export default Navbar

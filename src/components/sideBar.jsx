@@ -22,6 +22,6 @@ const SideBar = () => {
           </Link>
       </div>
   )
-}
+} 
 
 export default SideBar

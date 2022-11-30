@@ -13,7 +13,7 @@ export const donorReducer = (state= Initial_State, action)=>{
     const {type,payload} = action;
     switch(type){
         case Set_Donor_Success:
-            return {
+            return { 
                 ...state,
                 donorCreated: payload
             }

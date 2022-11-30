@@ -15,6 +15,6 @@ export const setDonorErrorSelector = createSelector([selectDonorReducer], (donor
 })
 
 export const isDonorsLoading = createSelector([selectDonorReducer],
-    (donorReducer)=>{
+    (donorReducer)=>{ 
         return donorReducer?.isLoading
     })

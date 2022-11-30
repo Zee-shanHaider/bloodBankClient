@@ -129,7 +129,7 @@ return (
             donors?.map((donor,ind)=>{
                 return(
                     <div className="donorCard" key={ind}>
-                       <div className="img-blood">
+                       <div className="img-blood"> 
                       {console.log('image url', url+'/images/'+donor.userId.imageUrl)}
                         <img src={url+'/images/'+donor.userId.imageUrl} alt='user image' className='donorImg'/>
                         <div>

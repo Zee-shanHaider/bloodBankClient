@@ -8,7 +8,7 @@ const userLogin = (response)=>{
     return {
         type: User_Login_Success,
         payload: response
-    }
+    } 
 }
 
 const userLoginFailed = (err)=>{

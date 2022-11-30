@@ -23,7 +23,7 @@ export const userReducer = (state=Initital_State, action)=>{
             }
             case User_Signup_Success:
                 return{
-                    ...state,
+                    ...state, 
                     signupSuccess: payload
                 }
                 case User_Signup_Failed:

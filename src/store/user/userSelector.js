@@ -14,7 +14,7 @@ export const tokenSelector = createSelector([selectUserReducer],
 export const userLoggedInSelector = createSelector([selectUserReducer],
     (userReducer)=>{
         return userReducer.isLoggedIn
-    })
+    }) 
 
 export const signupErrorSelector = createSelector([selectUserReducer],
     (userReducer)=>{
