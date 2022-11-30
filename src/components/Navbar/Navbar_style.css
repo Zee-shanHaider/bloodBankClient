@@ -1,0 +1,39 @@
+.nav {
+    width:100%;
+    display: block;
+    background-color: rgb(221, 59, 59);
+    color: #ffffff;
+    padding: 13px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.dropDown {
+    background-color: none;
+    background: none;
+}
+
+
+.bg-none {
+    background: none;
+    border: none;
+    color: white;
+}
+
+
+.border-btm {
+    border-bottom: 1px solid white
+}
+
+
+.dropdown-menu {
+    background-color: rgb(207, 45, 45);
+}
+
+
+.para {
+    margin: 0 15px;
+    
+}

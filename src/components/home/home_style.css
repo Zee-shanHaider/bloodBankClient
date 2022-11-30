@@ -1,0 +1,145 @@
+.sideBar {
+    width: 20%;
+    border: 1px solid  rgb(200, 63, 63);
+    background-color: rgb(252, 239, 241);
+}
+
+
+.container {
+    background-color: rgb(238, 232, 232);
+}
+
+
+.home {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+
+.link {
+    display: block;
+    padding: 10px 8px;
+    border-bottom: 0.1px solid rgb(237, 217, 217);
+    text-decoration: none;
+    text-align: left;
+    font-weight: 500;
+    color: brown;
+}
+
+
+.link:hover {
+    background-color: maroon;
+    color: white;
+    transition: 0.7s;
+}
+
+.icon {
+    color:rgb(221, 59, 59);;
+}
+
+
+.txt-left {
+    text-align: left;
+}
+
+
+.border-btm {
+    border-bottom: 1px solid rgb(237, 217, 217);
+}
+
+.h {
+    color: maroon;
+    padding: 10px 5px;
+}
+
+.dataContainer {
+    width: 100%;
+    /* background-image: url('https://media.istockphoto.com/id/1209784766/photo/hand-of-a-healthy-man-hold-symbol-blood-help-and-health-concepts.jpg?s=612x612&w=0&k=20&c=-aS4yAUv_1x5Ph2yT-O0teGwN88iXhsqGEFtYdRTY14='); */
+    margin: 10px 5px 5px 5px;
+    background-color: white;
+
+}
+
+.h6 {
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.details {
+    padding: 30px 30px;
+}
+
+.card {
+    padding: 5px 10px;
+    border: 1px solid silver;
+    width: 23%;
+    padding-bottom: 20px;
+    transition: 0.9s;
+
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid silver;
+}
+
+.cardIcon {
+    text-align: right;
+    color: blue;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.cardTxt {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.txt-lft {
+    text-align: left;
+    margin: 0;
+}
+
+.clr-red {
+    color: red;
+}
+
+.clr-black {
+    color: black;
+}
+
+.clr-blue {
+    color: rgb(0, 123, 255);
+}
+
+.bloodCards {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 5px 30px;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.bloodIcon {
+    font-size: 2rem;
+}
+
+.bloodCard {
+    margin: 10px 0px;
+    padding: 5px 5px;
+}
+
+.bloodGroup {
+    font-size: 2rem;
+    color: black;
+    font-weight: 100;
+}

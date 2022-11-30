@@ -1,0 +1,25 @@
+.loginForm {
+    margin: 50px 20px;
+}
+
+.login-input {
+    padding: 8px 5px;
+    margin: 5px 0px;
+    border: none;
+    background-color: rgb(236, 235, 235);
+}
+
+.auth-btn {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.btnSign {
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+}
+
+.btnSign:hover{
+    color: red;
+}

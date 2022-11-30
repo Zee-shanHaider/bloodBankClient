@@ -1,0 +1,115 @@
+.requests {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.requestCard {
+    border: none;
+    background-color: aliceblue;
+    margin: 10px 10px;
+}
+
+.txt-right {
+    text-align: right;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.mgn-left {
+    margin-left: 20px;
+}
+
+.mgn-top {
+    margin-top: 20px;
+}
+
+.pointer {
+    cursor: pointer;
+    width: 140px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 5px auto;
+}
+
+.form-fields {
+    padding: 5px;
+    margin: 6px 2px;
+    outline: none;
+    color: grey;
+    border-radius: 4px;
+    border: 1px solid silver;
+}
+
+.file-input {
+    border: 1px solid silver;
+}
+
+.form-btn {
+    border: 1px solid silver;
+    background-color: antiquewhite;
+    padding: 5px 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form-btn:hover{
+    background-color: rgb(249, 186, 172);
+    color: red;
+    transition: 0.7s;
+}
+
+.navlist {
+    margin-bottom: 5px;
+    display: flex;
+}
+
+/* .navlist li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    /* display: flex; */ 
+
+.navlist  a, button{
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 5px;
+    display: block;
+    position: relative;
+    text-align: right;
+    color: #00695c;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+
+}
+
+.navlist a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    transition: 0.7s;
+    background: #f44336;
+     
+}
+.navlist a:hover::after{
+    width: 100%;
+}
+
+.paraDiv {
+    height: 75px;
+}
+
+.btnPrescription:hover {
+    color: rgb(42, 187, 131);
+}
+
+.reqPara {
+    font-size: 0.95rem;
+}
